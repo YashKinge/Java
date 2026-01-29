@@ -13,5 +13,8 @@ public class CelsiusToFahrenheitInput {
 	    double fahrenheit = (celsius * 9 / 5) + 32;
 	
 	    System.out.println("Fahrenheit = " + fahrenheit);
+	    
+	    sc.close();
 	}
+	
 }
